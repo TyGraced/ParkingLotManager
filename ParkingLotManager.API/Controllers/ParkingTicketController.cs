@@ -25,7 +25,7 @@ namespace ParkingLotManager.API.Controllers
             {
                 return Ok(ticket);
             }
-            return BadRequest(ticket);
+            return BadRequest(ticket); 
         }
 
         [HttpGet(ApiRoutes.ParkingTickets.GetAll)]
